@@ -1,0 +1,18 @@
+server:
+    port: 18080
+spring:
+    profiles:
+        active: @activeProfile@
+    cloud:
+        sentinel:
+            transport:
+                dashboard: localhost:8080
+                port: 8719
+zuul:
+    routes:
+        nacos-sentinel-product:
+            path: /sentinelProduct/**
+            serviceId: nacos-sentinel-product
+        nacos-sentinel-feign:
+            path: /sentinelFeign/**
+            serviceId: nacos-sentinel-feign

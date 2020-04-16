@@ -1,0 +1,19 @@
+server:
+    port: 8822
+spring:
+    profiles:
+        active: @activeProfile@
+    cloud:
+        sentinel:
+            transport:
+                dashboard: localhost:8080
+                port: 8719
+management:
+    endpoints:
+        web:
+            cors:
+                allowed-methods: '*'
+feign:
+    sentinel:
+        # 开启 Sentinel对 Feign 的支持
+        enabled: true

@@ -1,0 +1,27 @@
+server:
+    port: 28080
+spring:
+    profiles:
+        active: @activeProfile@
+    cloud:
+        gateway:
+           discovery:
+             locator:
+                # 默认服务名称必须大写 访问 true 小写即可访问
+                lower-case-service-id: true
+                enabled: true
+           routes:
+             # 路由ID
+             - id: nacos-sentinel-feign
+               # 目标服务地址 注册中心服务ID
+               uri: lb://nacos-sentinel-feign
+               predicates:
+                 # 路由条件
+                 - Path=/feign/**,/rest/**
+               # 路由ID
+             - id: baidu-route
+               # 目标服务地址 注册中心服务ID
+               uri: https://www.aliyun.com/
+               predicates:
+                 # 路由条件
+                 - Path=/baidu/**

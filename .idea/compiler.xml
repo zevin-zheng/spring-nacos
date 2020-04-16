@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="nacos-consumer-feign" />
+        <module name="nacos-consumer-ribbon" />
+        <module name="nacos-gateway-server" />
+        <module name="nacos-product-server" />
+        <module name="nacos-sentinel-feign" />
+        <module name="nacos-sentinel-gateway" />
+        <module name="nacos-sentinel-product" />
+        <module name="nacos-sentinel-product1" />
+        <module name="nacos-sentinel-zuul" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="nacos-consumer-feign" target="1.8" />
+      <module name="nacos-consumer-ribbon" target="1.8" />
+      <module name="nacos-gateway-server" target="1.8" />
+      <module name="nacos-product-server" target="1.8" />
+      <module name="nacos-sentinel-feign" target="1.8" />
+      <module name="nacos-sentinel-gateway" target="1.8" />
+      <module name="nacos-sentinel-product" target="1.8" />
+      <module name="nacos-sentinel-product1" target="1.8" />
+      <module name="nacos-sentinel-zuul" target="1.8" />
+      <module name="spring-nacos" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

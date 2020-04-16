@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/nacos-consumer-feign/nacos-consumer-feign.iml" filepath="$PROJECT_DIR$/nacos-consumer-feign/nacos-consumer-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nacos-consumer-ribbon/nacos-consumer-ribbon.iml" filepath="$PROJECT_DIR$/nacos-consumer-ribbon/nacos-consumer-ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nacos-gateway-server/nacos-gateway-server.iml" filepath="$PROJECT_DIR$/nacos-gateway-server/nacos-gateway-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nacos-product-server/nacos-product-server.iml" filepath="$PROJECT_DIR$/nacos-product-server/nacos-product-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nacos-sentinel-feign/nacos-sentinel-feign.iml" filepath="$PROJECT_DIR$/nacos-sentinel-feign/nacos-sentinel-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nacos-sentinel-gateway/nacos-sentinel-gateway.iml" filepath="$PROJECT_DIR$/nacos-sentinel-gateway/nacos-sentinel-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nacos-sentinel-product/nacos-sentinel-product.iml" filepath="$PROJECT_DIR$/nacos-sentinel-product/nacos-sentinel-product.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nacos-sentinel-product1/nacos-sentinel-product1.iml" filepath="$PROJECT_DIR$/nacos-sentinel-product1/nacos-sentinel-product1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nacos-sentinel-zuul/nacos-sentinel-zuul.iml" filepath="$PROJECT_DIR$/nacos-sentinel-zuul/nacos-sentinel-zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-nacos.iml" filepath="$PROJECT_DIR$/spring-nacos.iml" />
+    </modules>
+  </component>
+</project>
